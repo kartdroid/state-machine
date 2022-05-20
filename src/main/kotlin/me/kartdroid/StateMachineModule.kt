@@ -3,6 +3,11 @@ package me.kartdroid
 import me.kartdroid.logging.Logger
 import me.kartdroid.logging.internal.GenericLogger
 
+
+/**
+ * @author [Karthick Chinnathambi](https://github.com/kartdroid)
+ * @since 20/05/22.
+ */
 object StateMachineModule {
     private var loggerBuilder: Logger.Builder =
         GenericLogger.Builder()

@@ -5,6 +5,10 @@ package me.kartdroid.logging
  *
  * Each Logging method accepts a lambda which is computed ONLY IF the corresponding [Level]
  * is enabled
+ *
+ * @author [Karthick Chinnathambi](https://github.com/kartdroid)
+ * @since 20/05/22.
+ *
  */
 interface Logger {
 

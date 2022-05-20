@@ -6,7 +6,10 @@ import kotlin.reflect.KClass
 // NOTE : Dokka Documentation is pending on this file
 
 /**
- *  Type that represents a lambda that processes all the Transitions for a particular StateMachine
+ *  Type that represents a lambda that processes all the Transitions for a particular StateMachine.
+ *
+ * @author [Karthick Chinnathambi](https://github.com/kartdroid)
+ * @since 20/05/22.
  */
 typealias TransitionHandler<TContext, TState, TEvent> = (
     context: TContext,

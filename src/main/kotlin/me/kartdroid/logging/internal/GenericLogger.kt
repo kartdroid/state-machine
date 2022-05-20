@@ -2,6 +2,10 @@ package me.kartdroid.logging.internal
 
 import me.kartdroid.logging.Logger
 
+/**
+ * @author [Karthick Chinnathambi](https://github.com/kartdroid)
+ * @since 20/05/22.
+ */
 internal class GenericLogger(
     override val tag: String,
     override val verboseMask: Int,
